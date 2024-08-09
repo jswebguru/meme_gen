@@ -5,5 +5,5 @@ Examples:
 
 This is the result based on the prompt: "raining cats and dogs"
 
-It insert brand image at the bottom right corner of the meme.
+It inserts brand image at the bottom right corner of the meme.
 
