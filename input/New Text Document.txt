@@ -1,0 +1,21 @@
+# How to deploy next.js project with the firebase
+
+First, build you project.
+> npm run build
+
+Next, configure the dist folder.
+Make new folder named "dist" in the project level.
+And then, copy the '.next' foldet into the dist folder.
+After it, locate the index.js file in the '.next' folder and copy that into the dist folder.
+rename pasted '.next' folder into the '_next'
+
+And finally deploy with firebase.
+Go to the project directory and start the console.
+And init firebase project. # Here, firebase-tools must be installed by 
+> firebase init
+after the project initialization, replace the index.html file with the built index.html file. # after initialization of the firebase project, automatically index.html file created. you have to replace this file with the project file.
+> firebase deploy
+With the command line, you can deploy firebase project, "firebase deploy"
+
+Thanks
+
